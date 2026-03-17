@@ -1,6 +1,6 @@
 # Pub Crawl Orienteering Solver
 
-A metaheuristics benchmark for the **orienteering problem** applied to real UK pub locations. Given a travel budget (default 32 km), the goal is to visit as many pubs as possible starting from a random node — every pub has equal value, so it reduces to maximising the number of stops.
+A metaheuristics benchmark for the **orienteering problem** applied to real UK pub locations. Given a travel budget (default 32 km), the goal is to visit as many pubs as possible starting from a random node. In this OP, every pub has equal value, so it reduces to maximising the number of stops.
 
 Three construction heuristics are compared across repeated trials:
 
@@ -25,7 +25,7 @@ fas_id,name,address,postcode,easting,northing,latitude,longitude,local_authority
 339814,146 High Street,"Aston, Birmingham",B6 4US,407245,288989.0,52.498758,-1.894707,Birmingham
 ```
 
-CSVs are gitignored to keep the repo lightweight — source your own from [OpenStreetMap](https://www.openstreetmap.org/) or the [Open Pubs dataset](https://www.getthedata.com/open-pubs).
+CSVs are gitignored to keep the repo lightweight — source your own as long as the dataset includess latitude and longitude. Our data was engineered from [Every Pub in England by Rachael Tatman]https://www.kaggle.com/datasets/rtatman/every-pub-in-england
 
 ## Usage
 
