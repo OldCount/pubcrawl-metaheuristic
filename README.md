@@ -25,7 +25,7 @@ fas_id,name,address,postcode,easting,northing,latitude,longitude,local_authority
 339814,146 High Street,"Aston, Birmingham",B6 4US,407245,288989.0,52.498758,-1.894707,Birmingham
 ```
 
-CSVs are gitignored to keep the repo lightweight — source your own as long as the dataset includess latitude and longitude. Our data was engineered from [Every Pub in England by Rachael Tatman]https://www.kaggle.com/datasets/rtatman/every-pub-in-england
+CSVs are gitignored to keep the repo lightweight — source your own as long as the dataset includess latitude and longitude. Our data was engineered from [Every Pub in England by Rachael Tatman](https://www.kaggle.com/datasets/rtatman/every-pub-in-england)
 
 ## Usage
 
